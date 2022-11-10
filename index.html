@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          Documentation
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-danger">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-medium is-black">
+    <div class="hero-body">
+      <p class="title is-1 has-text-weight-bold">
+        THE AMAZING SPIDER MAN 
+      </p>
+      <p class="subtitle is-size-6 is-italic">
+        "With great power comes great responsibility"
+      </p>
+    </div>
+  </section>
+  <section class="section is-light" id="services">
+    <div class="container">
+      <div class="has-text-centered">
+        <h2 class="title is-2">Full Service Web</h2>
+        <h6 class="subtitle is-6 has-text-grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptate. Ducimus, ut beatae totam vel voluptatum laboriosam quisquam iusto delectus eos fugiat voluptate neque consectetur placeat explicabo consequatur ratione dolorem?
+        </h6>
+          <!-- Below is the searchBarInput -->
+          <input id="searchBarInput" spellcheck="true" class="input is-rounded is-large" placeholder="Search">
+          <button id="searchBtn">Search</button>
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Tweets about Marvel Per-day</p>
+                <p class="title">864,000,000</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Sales of Marvel Comics </p>
+                <p class="title">216,038</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">GLOBAL box office revenue of avengers endgame</p>
+                <p class="title">2.8BN USD</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Adults who recognize spiderman</p>
+                <p class="title">87%</p>
+              </div>
+            </div>
+          </nav>
+      </div>
+       <!-- Search Result Output   -->
+
+       <p></p>
+      
+      <!-- <div class="columns pt-6">
+        <div class="column">
+          <div class="card">
+          <div class="card-content">
+            <div class="has-text-centered">
+              <span class="icon is-size-1 py-6 ny-3">
+                <i class="fas fa-code"></i>
+              </span>
+            </div>
+            <p class id="characterName[i]" ="title is-4">
+              Name
+            </p>
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, provident? Laboriosam nobis nihil mollitia magnam hic velit reprehenderit at, laudantium perferendis veniam aspernatur quam ex consequuntur nemo harum maiores rerum.
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">Learn more</a>
+          </footer>
+          </div>
+        </div> -->
+        <div class="column">
+          <div class="card">
+          <div class="card-content">
+
+            <!-- Image content -->
+            <div class="has-text-centered">
+
+
+              <img src="character-photo" alt="" >
+                
+              
+            </div>
+            <p  id="character-name" class="title is-4">
+              Name
+            </p>
+            <div id="character-description" class="content">
+             
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">Learn more</a>
+          </footer>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+          <div class="card-content">
+            <div class="has-text-centered">
+              <span class="icon is-size-1 py-6 ny-3">
+                <i class="fas fa-code"></i>
+              </span>
+            </div>
+            <p class="title is-4">
+              Name
+            </p>
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, provident? Laboriosam nobis nihil mollitia magnam hic velit reprehenderit at, laudantium perferendis veniam aspernatur quam ex consequuntur nemo harum maiores rerum.
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">Learn more</a>
+          </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tile is-ancestor">
+  <div class="tile is-4 is-vertical is-parent">
+    <div class="tile is-child box">
+      <img src="./assest/Images/evn2xczpvcx91.png" alt="">
+    </div>
+    <div class="tile is-child box is-dark">
+       <img src="./assest/Images/gm5ps2tocjx91.webp" alt="">
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+      <section class="reddit">
+        <img src="./assest/Images/Reddit-Logo.png" height="60" width="170" alt="">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/128x128.png">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Barbara Middleton</strong>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
+                <br>
+                <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+              </p>
+            </div>
+        
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-48x48">
+                  <img src="https://bulma.io/images/placeholders/96x96.png">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Sean Brown</strong>
+                    <br>
+                    Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
+                    <br>
+                    <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                  </p>
+                </div>
+        
+                <article class="media">
+                  Vivamus quis semper metus, non tincidunt dolor. Vivamus in mi eu lorem cursus ullamcorper sit amet nec massa.
+                </article>
+        
+                <article class="media">
+                  Morbi vitae diam et purus tincidunt porttitor vel vitae augue. Praesent malesuada metus sed pharetra euismod. Cras tellus odio, tincidunt iaculis diam non, porta aliquet tortor.
+                </article>
+              </div>
+            </article>
+        
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-48x48">
+                  <img src="https://bulma.io/images/placeholders/96x96.png">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Kayli Eunice </strong>
+                    <br>
+                    Sed convallis scelerisque mauris, non pulvinar nunc mattis vel. Maecenas varius felis sit amet magna vestibulum euismod malesuada cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus lacinia non nisl id feugiat.
+                    <br>
+                    <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </article>
+        
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/128x128.png">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="field">
+              <p class="control">
+                <textarea class="textarea" placeholder="Add a comment..."></textarea>
+              </p>
+            </div>
+            <div class="field">
+              <p class="control">
+                <button class="button">Post comment</button>
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="logo.png" alt="" class="logo">
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="rights-text">© 2022 Created By <b>Mohamud Sheeq, Husaam N Tariq, Timothy Lau & Yousuf Saleh</b>  All Rights Reserved.</p>
+      </div>
+
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p>Enter Your Email to get our news and updates.</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+ <script src="/scipts/script.js"></script>
+</body>
+</html>
